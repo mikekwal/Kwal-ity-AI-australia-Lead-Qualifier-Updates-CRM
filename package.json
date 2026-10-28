@@ -1,0 +1,16 @@
+{
+  "name": "lead-intake-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Sorts website enquiries with Claude, files them in GoHighLevel and alerts the team in Slack. Never sends anything to a lead.",
+  "engines": {
+    "node": ">=22.9"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=../.env --env-file-if-exists=.env src/server.js",
+    "check": "node --env-file-if-exists=../.env --env-file-if-exists=.env scripts/check-env.js",
+    "digest": "node --env-file-if-exists=../.env --env-file-if-exists=.env scripts/digest.js",
+    "replay": "node --env-file-if-exists=../.env --env-file-if-exists=.env scripts/replay.js"
+  }
+}
