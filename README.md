@@ -106,3 +106,7 @@ Not built yet:
 - Cloud deployment, public-form spam protection and rate limits (planned in `CLOUD-PLAN.md`)
 
 `CLAUDE.md` is the full build specification and acceptance rubric.
+
+## License
+
+MIT. Free to use, change and share; see `LICENSE`.

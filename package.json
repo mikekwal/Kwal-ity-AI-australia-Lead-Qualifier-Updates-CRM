@@ -2,6 +2,7 @@
   "name": "lead-intake-agent",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "description": "Sorts website enquiries with Claude, files them in GoHighLevel and alerts the team in Slack. Never sends anything to a lead.",
   "engines": {
